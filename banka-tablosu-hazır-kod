@@ -1,27 +1,31 @@
-<table border="1" cellpadding="5" cellspacing="0" 
+   <table border="1" cellpadding="5" cellspacing="0" 
        style="width:100%; border-collapse:collapse; margin-top:8px;"> <!-- Tablo başlangıcı -->
   
   <tr style="background-color:#f2f2f2;"> <!-- Tablo başlık satırı -->
     <th>Banka Adı</th>
-    <th>Şube</th>
+    <th>Döviz</th>
     <th>IBAN</th>
-    <th>Hesap Sahibi</th>
+   
+  </tr>
+           <tr> <!-- BANKA BİLGİSİ -->
+    <td style="text-align:center;">-</td>
+    <td style="text-align:center;">TL</td>
+    <td style="text-align:center;">-</td>
+    
+  </tr>
+             <tr> <!-- BANKA BİLGİSİ -->
+    <td style="text-align:center;">-</td>
+    <td style="text-align:center;">USD</td>
+    <td style="text-align:center;">-</td>
+    
+  </tr>
+             <tr> <!-- BANKA BİLGİSİ -->
+    <td style="text-align:center;">-</td>
+    <td style="text-align:center;">EURO</td>
+    <td style="text-align:center;">-</td>
+    
   </tr>
 
-  <tr> <!-- BANKA BİLGİSİ -->
-    <td>A BANKA</td>
-    <td>-</td>
-    <td>00000000000000</td>
-    <td>A A.Ş</td>
-  </tr>
-
+ 
+   
 </table> <!-- Tablo bitişi -->
-
-<!-- Yeni banka eklemek istersen:
-<tr>
-  <td>Banka Adı</td>
-  <td>Şube</td>
-  <td>IBAN</td>
-  <td>Hesap Sahibi</td>
-</tr>
--->
